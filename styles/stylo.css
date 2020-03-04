@@ -1,0 +1,26 @@
+body, html {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    min-width: 80px;
+}
+#wrapper {
+    font-size: 333px;
+}
+
+/* ----- Media Queries ----- */
+
+@media (max-width: 960px) {
+    body {
+        background: royalblue;
+    }
+    p {
+        color: white;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background: red;
+    }    
+}
