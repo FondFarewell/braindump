@@ -2,25 +2,54 @@ body, html {
     margin: 0px;
     border: 0px;
     padding: 0px;
-    min-width: 80px;
-}
-#wrapper {
-    font-size: 333px;
+    min-width: 300px;
 }
 
 /* ----- Media Queries ----- */
 
-@media (max-width: 960px) {
+@media (max-width: 480px) {
     body {
-        background: royalblue;
+        background-color: rgb(119, 122, 129);
     }
-    p {
-        color: white;
+    nav {
+        display: grid;
+    }
+    #logo {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+    .subject {
+        display: block;
+    }
+    .nav-btn {
+        background-color: red;
+    }
+    .nav-links {
+        margin-left: auto;
+        margin-right: auto;
+        border: 0px;
+        padding: 0px;
+        width: 85%;
+        list-style: none;
+}
+}
+@media (min-width: 480px) {
+    body {
+        background-color: red;
+    }
+    #logo {
+        width: 230px;
+    }
+}
+@media (min-width: 960px) {
+    body {
+        background-color: green;
+    }
+    #logo {
+        width: 250px;
     }
 }
 
-@media (max-width: 480px) {
-    body {
-        background: red;
-    }    
-}
+/* ---------- Text Styles ---------- */
